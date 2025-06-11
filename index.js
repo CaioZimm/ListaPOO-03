@@ -19,6 +19,9 @@ function exibirMenu() {
   console.log("8. Conversor de Temperatura ");
   console.log("9. Lanchonete ");
   console.log("10. Múltiplos ");
+  console.log("11. Aumento Salarial ");
+  console.log("12. Duração do Jogo ");
+  console.log("13. Coordenadas Cartesianas ");
 
   console.log("0. Sair");
   console.log("==============================================\n");
@@ -44,6 +47,18 @@ function caminhoExercicio(num) {
       return "src/Glicose/execGlicose.js";
     case 7:
       return "src/Dardo/execDardo.js";
+    case 8:
+      return "src/ConversorTemperatura/execConversorTemp.js";
+    case 9:
+      return "src/Lanchonete/execLanchonete.js";
+    case 10:
+      return "src/Multiplos/execMultiplos.js";
+    case 11:
+      return "src/AumentoSalarial/execAumento.js";
+    case 12:
+      return "src/DuracaoJogo/execJogo.js";
+    case 13:
+      return "src/Coordenadas/execCoordenada.js";
     default:
       return null;
   }
